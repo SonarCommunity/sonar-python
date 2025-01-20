@@ -84,12 +84,12 @@
     <!-- versions -->
     <commons.io.version>2.18.0</commons.io.version>
     <commons.lang.version>2.6</commons.lang.version>
-    <assertj-core.version>3.26.3</assertj-core.version>
-    <junit.version>5.11.3</junit.version>
-    <logback.version>1.5.12</logback.version>
+    <assertj-core.version>3.27.3</assertj-core.version>
+    <junit.version>5.11.4</junit.version>
+    <logback.version>1.5.16</logback.version>
     <slf4j.version>2.0.16</slf4j.version>
     <maven.project.version>2.2.1</maven.project.version>
-    <mockito.version>5.14.2</mockito.version>
+    <mockito.version>5.15.2</mockito.version>
     <!--
       sonar-plugin-api should be compatible with SQ peach. You can see which version SQ is using
       at SonarSource/sonarqube/gradle.properties
@@ -98,7 +98,7 @@
     <sonar.api.version>10.14.0.2599</sonar.api.version>
     <sonar.orchestrator.version>5.1.0.2254</sonar.orchestrator.version>
     <sonar-analyzer-commons.version>2.16.0.3141</sonar-analyzer-commons.version>
-    <sonarlint-core.version>10.11.0.79687</sonarlint-core.version>
+    <sonarlint-core.version>10.13.0.79996</sonarlint-core.version>
     <sslr.version>1.24.0.633</sslr.version>
     <protobuf.version>4.29.0</protobuf.version>
     <woodstox.version>6.2.7</woodstox.version>
@@ -188,7 +188,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>33.3.1-jre</version>
+        <version>33.4.0-jre</version>
       </dependency>
 
       <!-- test dependencies -->
@@ -225,7 +225,7 @@
       <dependency>
         <groupId>org.junit.platform</groupId>
         <artifactId>junit-platform-suite-engine</artifactId>
-        <version>1.11.3</version>
+        <version>1.11.4</version>
         <scope>test</scope>
       </dependency>
       <dependency>
